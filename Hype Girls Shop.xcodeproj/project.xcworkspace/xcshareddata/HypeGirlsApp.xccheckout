@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A855FB63-39C9-4235-A1F1-61F2B5A6F756</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HypeGirlsApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E54E6305-E979-40A1-8D01-7FB7044B5CF0</key>
+		<string>https://github.com/moreg001/HypeGirls.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HypeGirlsApp/HypeGirlsApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E54E6305-E979-40A1-8D01-7FB7044B5CF0</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/moreg001/HypeGirls.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E54E6305-E979-40A1-8D01-7FB7044B5CF0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E54E6305-E979-40A1-8D01-7FB7044B5CF0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HypeGirls</string>
+		</dict>
+	</array>
+</dict>
+</plist>

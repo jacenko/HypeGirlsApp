@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09E894461A2E6BFF00022382 /* OrdersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E894451A2E6BFF00022382 /* OrdersViewController.m */; };
+		A7000FF41A3818D40075D659 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7000FF31A3818D40075D659 /* CoreData.framework */; };
+		A70223911A37CA4A006FDC16 /* ShopNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A70223901A37CA4A006FDC16 /* ShopNavigationViewController.m */; };
+		A70223941A37CA5B006FDC16 /* BlogNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A70223931A37CA5B006FDC16 /* BlogNavigationViewController.m */; };
+		A70223971A37CA87006FDC16 /* ProfileNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A70223961A37CA87006FDC16 /* ProfileNavigationViewController.m */; };
+		A702239A1A37CA95006FDC16 /* SettingsNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A70223991A37CA95006FDC16 /* SettingsNavigationViewController.m */; };
+		A70223A01A37E4E5006FDC16 /* UIView+FormScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = A702239F1A37E4E5006FDC16 /* UIView+FormScroll.m */; };
+		A70223A31A3801E6006FDC16 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A70223A21A3801E6006FDC16 /* SettingsViewController.m */; };
+		A70223A61A380379006FDC16 /* Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = A70223A51A380379006FDC16 /* Theme.m */; };
+		A71C61EA1A1BF7920002E321 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71C61E91A1BF7920002E321 /* Foundation.framework */; };
+		A71C61EC1A1BF7920002E321 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71C61EB1A1BF7920002E321 /* CoreGraphics.framework */; };
+		A71C61EE1A1BF7920002E321 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71C61ED1A1BF7920002E321 /* UIKit.framework */; };
+		A71C61F41A1BF7920002E321 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A71C61F21A1BF7920002E321 /* InfoPlist.strings */; };
+		A71C61F61A1BF7920002E321 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A71C61F51A1BF7920002E321 /* main.m */; };
+		A71C61FA1A1BF7920002E321 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A71C61F91A1BF7920002E321 /* AppDelegate.m */; };
+		A71C61FD1A1BF7920002E321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A71C61FB1A1BF7920002E321 /* Main.storyboard */; };
+		A71C62021A1BF7920002E321 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A71C62011A1BF7920002E321 /* Images.xcassets */; };
+		A71C62091A1BF7930002E321 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71C62081A1BF7930002E321 /* XCTest.framework */; };
+		A71C620A1A1BF7930002E321 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71C61E91A1BF7920002E321 /* Foundation.framework */; };
+		A71C620B1A1BF7930002E321 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71C61ED1A1BF7920002E321 /* UIKit.framework */; };
+		A71C62131A1BF7930002E321 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A71C62111A1BF7930002E321 /* InfoPlist.strings */; };
+		A71C62151A1BF7930002E321 /* HypeGirlsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A71C62141A1BF7930002E321 /* HypeGirlsAppTests.m */; };
+		A72E321D1A1EAA3E00EB8A44 /* Login Image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A72E321C1A1EAA3E00EB8A44 /* Login Image.jpg */; };
+		A75948711A35190900CBE08C /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A75948701A35190900CBE08C /* MainTabBarController.m */; };
+		A75948741A353A7000CBE08C /* Cart.m in Sources */ = {isa = PBXBuildFile; fileRef = A75948731A353A7000CBE08C /* Cart.m */; };
+		A76E7BF81A36B75E00315FCC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76E7BF71A36B75E00315FCC /* Security.framework */; };
+		A76E7BFA1A36B76800315FCC /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76E7BF91A36B76800315FCC /* PassKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A7ACBB531A30F7EB00E47308 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A7ACBB521A30F7EB00E47308 /* Person.m */; };
+		A7ACBB561A30FA5100E47308 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = A7ACBB551A30FA5100E47308 /* People.m */; };
+		A7AD8C0C1A2E520A00A3A94B /* ShopTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AD8C0B1A2E520A00A3A94B /* ShopTableViewController.m */; };
+		A7AD8C0F1A2E522D00A3A94B /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AD8C0E1A2E522D00A3A94B /* ProductViewController.m */; };
+		A7AD8C121A2E524600A3A94B /* CartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AD8C111A2E524600A3A94B /* CartViewController.m */; };
+		A7AD8C151A2E526500A3A94B /* BlogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AD8C141A2E526500A3A94B /* BlogViewController.m */; };
+		A7AD8C181A2E529E00A3A94B /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AD8C171A2E529E00A3A94B /* PostViewController.m */; };
+		A7AD8C1B1A2E52B100A3A94B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AD8C1A1A2E52B100A3A94B /* LoginViewController.m */; };
+		A7AD8C1E1A2E52BF00A3A94B /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AD8C1D1A2E52BF00A3A94B /* ProfileViewController.m */; };
+		A7AD8C241A2E53EC00A3A94B /* Products.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AD8C231A2E53EC00A3A94B /* Products.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A71C620C1A1BF7930002E321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A71C61DE1A1BF7920002E321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A71C61E51A1BF7920002E321;
+			remoteInfo = HypeGirlsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09E894441A2E6BFF00022382 /* OrdersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrdersViewController.h; sourceTree = "<group>"; };
+		09E894451A2E6BFF00022382 /* OrdersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrdersViewController.m; sourceTree = "<group>"; };
+		A7000FF31A3818D40075D659 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A702238F1A37CA4A006FDC16 /* ShopNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopNavigationViewController.h; sourceTree = "<group>"; };
+		A70223901A37CA4A006FDC16 /* ShopNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopNavigationViewController.m; sourceTree = "<group>"; };
+		A70223921A37CA5B006FDC16 /* BlogNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogNavigationViewController.h; sourceTree = "<group>"; };
+		A70223931A37CA5B006FDC16 /* BlogNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogNavigationViewController.m; sourceTree = "<group>"; };
+		A70223951A37CA87006FDC16 /* ProfileNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileNavigationViewController.h; sourceTree = "<group>"; };
+		A70223961A37CA87006FDC16 /* ProfileNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileNavigationViewController.m; sourceTree = "<group>"; };
+		A70223981A37CA95006FDC16 /* SettingsNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsNavigationViewController.h; sourceTree = "<group>"; };
+		A70223991A37CA95006FDC16 /* SettingsNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsNavigationViewController.m; sourceTree = "<group>"; };
+		A702239E1A37E4E5006FDC16 /* UIView+FormScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FormScroll.h"; sourceTree = "<group>"; };
+		A702239F1A37E4E5006FDC16 /* UIView+FormScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FormScroll.m"; sourceTree = "<group>"; };
+		A70223A11A3801E6006FDC16 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		A70223A21A3801E6006FDC16 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		A70223A41A380379006FDC16 /* Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Theme.h; sourceTree = "<group>"; };
+		A70223A51A380379006FDC16 /* Theme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Theme.m; sourceTree = "<group>"; };
+		A71C61E61A1BF7920002E321 /* Hype Girls Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hype Girls Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71C61E91A1BF7920002E321 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A71C61EB1A1BF7920002E321 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A71C61ED1A1BF7920002E321 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A71C61F11A1BF7920002E321 /* HypeGirlsApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HypeGirlsApp-Info.plist"; sourceTree = "<group>"; };
+		A71C61F31A1BF7920002E321 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A71C61F51A1BF7920002E321 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A71C61F71A1BF7920002E321 /* HypeGirlsApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HypeGirlsApp-Prefix.pch"; sourceTree = "<group>"; };
+		A71C61F81A1BF7920002E321 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A71C61F91A1BF7920002E321 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A71C61FC1A1BF7920002E321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A71C62011A1BF7920002E321 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A71C62071A1BF7930002E321 /* HypeGirlsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypeGirlsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71C62081A1BF7930002E321 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A71C62101A1BF7930002E321 /* HypeGirlsAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HypeGirlsAppTests-Info.plist"; sourceTree = "<group>"; };
+		A71C62121A1BF7930002E321 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A71C62141A1BF7930002E321 /* HypeGirlsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypeGirlsAppTests.m; sourceTree = "<group>"; };
+		A72E321C1A1EAA3E00EB8A44 /* Login Image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Login Image.jpg"; sourceTree = "<group>"; };
+		A759486F1A35190900CBE08C /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		A75948701A35190900CBE08C /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		A75948721A353A7000CBE08C /* Cart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cart.h; sourceTree = "<group>"; };
+		A75948731A353A7000CBE08C /* Cart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cart.m; sourceTree = "<group>"; };
+		A76E7BF71A36B75E00315FCC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A76E7BF91A36B76800315FCC /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		A7ACBB511A30F7EB00E47308 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A7ACBB521A30F7EB00E47308 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A7ACBB541A30FA5100E47308 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		A7ACBB551A30FA5100E47308 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		A7AD8C0A1A2E520A00A3A94B /* ShopTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopTableViewController.h; sourceTree = "<group>"; };
+		A7AD8C0B1A2E520A00A3A94B /* ShopTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopTableViewController.m; sourceTree = "<group>"; };
+		A7AD8C0D1A2E522D00A3A94B /* ProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewController.h; sourceTree = "<group>"; };
+		A7AD8C0E1A2E522D00A3A94B /* ProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewController.m; sourceTree = "<group>"; };
+		A7AD8C101A2E524600A3A94B /* CartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartViewController.h; sourceTree = "<group>"; };
+		A7AD8C111A2E524600A3A94B /* CartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartViewController.m; sourceTree = "<group>"; };
+		A7AD8C131A2E526500A3A94B /* BlogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogViewController.h; sourceTree = "<group>"; };
+		A7AD8C141A2E526500A3A94B /* BlogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogViewController.m; sourceTree = "<group>"; };
+		A7AD8C161A2E529E00A3A94B /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
+		A7AD8C171A2E529E00A3A94B /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
+		A7AD8C191A2E52B100A3A94B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A7AD8C1A1A2E52B100A3A94B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		A7AD8C1C1A2E52BF00A3A94B /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		A7AD8C1D1A2E52BF00A3A94B /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		A7AD8C221A2E53EC00A3A94B /* Products.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Products.h; sourceTree = "<group>"; };
+		A7AD8C231A2E53EC00A3A94B /* Products.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Products.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A71C61E31A1BF7920002E321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7000FF41A3818D40075D659 /* CoreData.framework in Frameworks */,
+				A76E7BFA1A36B76800315FCC /* PassKit.framework in Frameworks */,
+				A76E7BF81A36B75E00315FCC /* Security.framework in Frameworks */,
+				A71C61EC1A1BF7920002E321 /* CoreGraphics.framework in Frameworks */,
+				A71C61EE1A1BF7920002E321 /* UIKit.framework in Frameworks */,
+				A71C61EA1A1BF7920002E321 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71C62041A1BF7930002E321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71C62091A1BF7930002E321 /* XCTest.framework in Frameworks */,
+				A71C620B1A1BF7930002E321 /* UIKit.framework in Frameworks */,
+				A71C620A1A1BF7930002E321 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A702238E1A37C99C006FDC16 /* TabBar and Navigation Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A759486F1A35190900CBE08C /* MainTabBarController.h */,
+				A75948701A35190900CBE08C /* MainTabBarController.m */,
+				A702238F1A37CA4A006FDC16 /* ShopNavigationViewController.h */,
+				A70223901A37CA4A006FDC16 /* ShopNavigationViewController.m */,
+				A70223921A37CA5B006FDC16 /* BlogNavigationViewController.h */,
+				A70223931A37CA5B006FDC16 /* BlogNavigationViewController.m */,
+				A70223951A37CA87006FDC16 /* ProfileNavigationViewController.h */,
+				A70223961A37CA87006FDC16 /* ProfileNavigationViewController.m */,
+				A70223981A37CA95006FDC16 /* SettingsNavigationViewController.h */,
+				A70223991A37CA95006FDC16 /* SettingsNavigationViewController.m */,
+			);
+			name = "TabBar and Navigation Controllers";
+			sourceTree = "<group>";
+		};
+		A71C61DD1A1BF7920002E321 = {
+			isa = PBXGroup;
+			children = (
+				A71C61EF1A1BF7920002E321 /* HypeGirlsApp */,
+				A71C620E1A1BF7930002E321 /* HypeGirlsAppTests */,
+				A71C61E81A1BF7920002E321 /* Frameworks */,
+				A71C61E71A1BF7920002E321 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A71C61E71A1BF7920002E321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A71C61E61A1BF7920002E321 /* Hype Girls Shop.app */,
+				A71C62071A1BF7930002E321 /* HypeGirlsAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A71C61E81A1BF7920002E321 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7000FF31A3818D40075D659 /* CoreData.framework */,
+				A76E7BF91A36B76800315FCC /* PassKit.framework */,
+				A76E7BF71A36B75E00315FCC /* Security.framework */,
+				A71C61E91A1BF7920002E321 /* Foundation.framework */,
+				A71C61EB1A1BF7920002E321 /* CoreGraphics.framework */,
+				A71C61ED1A1BF7920002E321 /* UIKit.framework */,
+				A71C62081A1BF7930002E321 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A71C61EF1A1BF7920002E321 /* HypeGirlsApp */ = {
+			isa = PBXGroup;
+			children = (
+				A71C61F81A1BF7920002E321 /* AppDelegate.h */,
+				A71C61F91A1BF7920002E321 /* AppDelegate.m */,
+				A71C61FB1A1BF7920002E321 /* Main.storyboard */,
+				A70223A41A380379006FDC16 /* Theme.h */,
+				A70223A51A380379006FDC16 /* Theme.m */,
+				A7ACBB541A30FA5100E47308 /* People.h */,
+				A7ACBB551A30FA5100E47308 /* People.m */,
+				A7ACBB511A30F7EB00E47308 /* Person.h */,
+				A7ACBB521A30F7EB00E47308 /* Person.m */,
+				09E894441A2E6BFF00022382 /* OrdersViewController.h */,
+				09E894451A2E6BFF00022382 /* OrdersViewController.m */,
+				A7AD8C1C1A2E52BF00A3A94B /* ProfileViewController.h */,
+				A7AD8C1D1A2E52BF00A3A94B /* ProfileViewController.m */,
+				A7AD8C191A2E52B100A3A94B /* LoginViewController.h */,
+				A7AD8C1A1A2E52B100A3A94B /* LoginViewController.m */,
+				A7AD8C161A2E529E00A3A94B /* PostViewController.h */,
+				A7AD8C171A2E529E00A3A94B /* PostViewController.m */,
+				A7AD8C131A2E526500A3A94B /* BlogViewController.h */,
+				A7AD8C141A2E526500A3A94B /* BlogViewController.m */,
+				A7AD8C101A2E524600A3A94B /* CartViewController.h */,
+				A7AD8C111A2E524600A3A94B /* CartViewController.m */,
+				A7AD8C0D1A2E522D00A3A94B /* ProductViewController.h */,
+				A7AD8C0E1A2E522D00A3A94B /* ProductViewController.m */,
+				A7AD8C0A1A2E520A00A3A94B /* ShopTableViewController.h */,
+				A7AD8C0B1A2E520A00A3A94B /* ShopTableViewController.m */,
+				A70223A11A3801E6006FDC16 /* SettingsViewController.h */,
+				A70223A21A3801E6006FDC16 /* SettingsViewController.m */,
+				A75948721A353A7000CBE08C /* Cart.h */,
+				A75948731A353A7000CBE08C /* Cart.m */,
+				A7AD8C221A2E53EC00A3A94B /* Products.h */,
+				A7AD8C231A2E53EC00A3A94B /* Products.m */,
+				A72E321C1A1EAA3E00EB8A44 /* Login Image.jpg */,
+				A71C62011A1BF7920002E321 /* Images.xcassets */,
+				A702238E1A37C99C006FDC16 /* TabBar and Navigation Controllers */,
+				A746ACF31A313BD100D2E8CC /* Third Party Classes */,
+				A71C61F01A1BF7920002E321 /* Supporting Files */,
+			);
+			path = HypeGirlsApp;
+			sourceTree = "<group>";
+		};
+		A71C61F01A1BF7920002E321 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A71C61F11A1BF7920002E321 /* HypeGirlsApp-Info.plist */,
+				A71C61F21A1BF7920002E321 /* InfoPlist.strings */,
+				A71C61F51A1BF7920002E321 /* main.m */,
+				A71C61F71A1BF7920002E321 /* HypeGirlsApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A71C620E1A1BF7930002E321 /* HypeGirlsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A71C62141A1BF7930002E321 /* HypeGirlsAppTests.m */,
+				A71C620F1A1BF7930002E321 /* Supporting Files */,
+			);
+			path = HypeGirlsAppTests;
+			sourceTree = "<group>";
+		};
+		A71C620F1A1BF7930002E321 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A71C62101A1BF7930002E321 /* HypeGirlsAppTests-Info.plist */,
+				A71C62111A1BF7930002E321 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A746ACF31A313BD100D2E8CC /* Third Party Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A702239E1A37E4E5006FDC16 /* UIView+FormScroll.h */,
+				A702239F1A37E4E5006FDC16 /* UIView+FormScroll.m */,
+			);
+			name = "Third Party Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A71C61E51A1BF7920002E321 /* HypeGirlsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A71C62181A1BF7930002E321 /* Build configuration list for PBXNativeTarget "HypeGirlsApp" */;
+			buildPhases = (
+				A71C61E21A1BF7920002E321 /* Sources */,
+				A71C61E31A1BF7920002E321 /* Frameworks */,
+				A71C61E41A1BF7920002E321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HypeGirlsApp;
+			productName = HypeGirlsApp;
+			productReference = A71C61E61A1BF7920002E321 /* Hype Girls Shop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A71C62061A1BF7930002E321 /* HypeGirlsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A71C621B1A1BF7930002E321 /* Build configuration list for PBXNativeTarget "HypeGirlsAppTests" */;
+			buildPhases = (
+				A71C62031A1BF7930002E321 /* Sources */,
+				A71C62041A1BF7930002E321 /* Frameworks */,
+				A71C62051A1BF7930002E321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A71C620D1A1BF7930002E321 /* PBXTargetDependency */,
+			);
+			name = HypeGirlsAppTests;
+			productName = HypeGirlsAppTests;
+			productReference = A71C62071A1BF7930002E321 /* HypeGirlsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A71C61DE1A1BF7920002E321 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = FIU;
+				TargetAttributes = {
+					A71C62061A1BF7930002E321 = {
+						TestTargetID = A71C61E51A1BF7920002E321;
+					};
+				};
+			};
+			buildConfigurationList = A71C61E11A1BF7920002E321 /* Build configuration list for PBXProject "Hype Girls Shop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A71C61DD1A1BF7920002E321;
+			productRefGroup = A71C61E71A1BF7920002E321 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A71C61E51A1BF7920002E321 /* HypeGirlsApp */,
+				A71C62061A1BF7930002E321 /* HypeGirlsAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A71C61E41A1BF7920002E321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71C62021A1BF7920002E321 /* Images.xcassets in Resources */,
+				A71C61F41A1BF7920002E321 /* InfoPlist.strings in Resources */,
+				A72E321D1A1EAA3E00EB8A44 /* Login Image.jpg in Resources */,
+				A71C61FD1A1BF7920002E321 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71C62051A1BF7930002E321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71C62131A1BF7930002E321 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A71C61E21A1BF7920002E321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AD8C151A2E526500A3A94B /* BlogViewController.m in Sources */,
+				A7ACBB531A30F7EB00E47308 /* Person.m in Sources */,
+				A7AD8C0C1A2E520A00A3A94B /* ShopTableViewController.m in Sources */,
+				A7AD8C0F1A2E522D00A3A94B /* ProductViewController.m in Sources */,
+				A70223971A37CA87006FDC16 /* ProfileNavigationViewController.m in Sources */,
+				09E894461A2E6BFF00022382 /* OrdersViewController.m in Sources */,
+				A7AD8C1E1A2E52BF00A3A94B /* ProfileViewController.m in Sources */,
+				A70223A61A380379006FDC16 /* Theme.m in Sources */,
+				A702239A1A37CA95006FDC16 /* SettingsNavigationViewController.m in Sources */,
+				A7AD8C181A2E529E00A3A94B /* PostViewController.m in Sources */,
+				A7AD8C1B1A2E52B100A3A94B /* LoginViewController.m in Sources */,
+				A70223A01A37E4E5006FDC16 /* UIView+FormScroll.m in Sources */,
+				A75948711A35190900CBE08C /* MainTabBarController.m in Sources */,
+				A71C61FA1A1BF7920002E321 /* AppDelegate.m in Sources */,
+				A75948741A353A7000CBE08C /* Cart.m in Sources */,
+				A7AD8C241A2E53EC00A3A94B /* Products.m in Sources */,
+				A7ACBB561A30FA5100E47308 /* People.m in Sources */,
+				A7AD8C121A2E524600A3A94B /* CartViewController.m in Sources */,
+				A70223911A37CA4A006FDC16 /* ShopNavigationViewController.m in Sources */,
+				A70223A31A3801E6006FDC16 /* SettingsViewController.m in Sources */,
+				A71C61F61A1BF7920002E321 /* main.m in Sources */,
+				A70223941A37CA5B006FDC16 /* BlogNavigationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71C62031A1BF7930002E321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71C62151A1BF7930002E321 /* HypeGirlsAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A71C620D1A1BF7930002E321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A71C61E51A1BF7920002E321 /* HypeGirlsApp */;
+			targetProxy = A71C620C1A1BF7930002E321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A71C61F21A1BF7920002E321 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A71C61F31A1BF7920002E321 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A71C61FB1A1BF7920002E321 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A71C61FC1A1BF7920002E321 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A71C62111A1BF7930002E321 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A71C62121A1BF7930002E321 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A71C62161A1BF7930002E321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A71C62171A1BF7930002E321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A71C62191A1BF7930002E321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HypeGirlsApp/HypeGirlsApp-Prefix.pch";
+				INFOPLIST_FILE = "HypeGirlsApp/HypeGirlsApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "Hype Girls Shop";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A71C621A1A1BF7930002E321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HypeGirlsApp/HypeGirlsApp-Prefix.pch";
+				INFOPLIST_FILE = "HypeGirlsApp/HypeGirlsApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "Hype Girls Shop";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A71C621C1A1BF7930002E321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HypeGirlsApp.app/HypeGirlsApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HypeGirlsApp/HypeGirlsApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HypeGirlsAppTests/HypeGirlsAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A71C621D1A1BF7930002E321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HypeGirlsApp.app/HypeGirlsApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HypeGirlsApp/HypeGirlsApp-Prefix.pch";
+				INFOPLIST_FILE = "HypeGirlsAppTests/HypeGirlsAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A71C61E11A1BF7920002E321 /* Build configuration list for PBXProject "Hype Girls Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71C62161A1BF7930002E321 /* Debug */,
+				A71C62171A1BF7930002E321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A71C62181A1BF7930002E321 /* Build configuration list for PBXNativeTarget "HypeGirlsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71C62191A1BF7930002E321 /* Debug */,
+				A71C621A1A1BF7930002E321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A71C621B1A1BF7930002E321 /* Build configuration list for PBXNativeTarget "HypeGirlsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71C621C1A1BF7930002E321 /* Debug */,
+				A71C621D1A1BF7930002E321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A71C61DE1A1BF7920002E321 /* Project object */;
+}
