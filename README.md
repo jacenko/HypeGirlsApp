@@ -1,1 +1,3 @@
-# HypeGirlsApp
+# Hype Girls App
+
+The Hype Girls Store app is my senior project from FIU's iOS Develoment course that involved finding a client and working on an idea for an app that would have to have certain features. The client in question, Nichole, has a following with her brand of clothing/music/events under Hype Girls, Inc and wanted a store app that was simple, yet interesting. Based on the project's needed features, a blog and a personal profile was later added. The concept included here was presented to the client at the time of completion, a few weeks after the first meeting. Certain features were co-developed with Michael O'Reggio.
